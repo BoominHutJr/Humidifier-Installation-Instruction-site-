@@ -15,10 +15,16 @@ h1{
 p{
     line-height: 1.5;
     font-size: 16px;
+    text-align: center;
 }
 
 .text-color{
-    color:rgb(119, 33, 33); ;
+    color:rgb(75, 119, 33);
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
 }
 
 /*NAVIGATION BAR*/
@@ -70,6 +76,7 @@ nav{
 
 .instruction-set{
     max-width: 1000px;
+    padding-top: 30px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -79,18 +86,11 @@ nav{
 .instruction-set__list{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .img-scaling{
     padding-bottom: 25px;
     max-width: 200px;
-}
-
-.instruction-set__list--text{
-    line-height: 1.5;
-    text-decoration: none;
-    font-size: 16px;
-    align-items: center; 
-    margin:0 auto;   
 }
 
