@@ -15,7 +15,11 @@ h1{
 p{
     line-height: 1.5;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
+}
+
+.section__coloring{
+    background-color:whitesmoke;
 }
 
 .text-color{
@@ -41,7 +45,7 @@ nav{
 
 .nav-bar{
     position: relative;
-    border-bottom: 2px solid black;    
+    border-bottom: 2px solid black;
 }
 
 .contact-info{
@@ -79,8 +83,8 @@ nav{
     padding-top: 30px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    border-bottom: 2px solid black;
 }
 
 .instruction-set__list{
@@ -90,7 +94,34 @@ nav{
 }
 
 .img-scaling{
-    padding-bottom: 25px;
-    max-width: 200px;
+    padding-bottom: 30px;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+/*WARNINGS*/
+
+.instruction-set__warnings{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width:100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+    padding-top: 10px; 
+    padding-bottom: 50px; 
+}
+
+
+.instruction-set__warnings--warning-text{
+    font-size: 18px;
+    color: darkred;
+}
+
 
